@@ -2,7 +2,6 @@
 using namespace std;
 
 // Write a fuction to print Pascal triangle.
-// mysirg.com--> c-program-->function-->Pascal triangle.
 
 int factorial(int n)
 {
