@@ -4,8 +4,7 @@ using namespace std;
 
 int fibo(int n){
 
-// base condition 
-  if(n<2){
+  if(n<2){  // base condition 
     return n;
   }
   return fibo(n-1) + fibo(n-2);
@@ -14,7 +13,7 @@ int fibo(int n){
 
  int main(){
 
-cout<<fibo(4);  
+cout<<fibo(50);  
 
 return 0;
 }
